@@ -1,0 +1,42 @@
+{
+  "feedback_id": "fb_004",
+  "clean_text": "People are switching to at-home lab tests. Also please add dark mode.",
+  "clean_text_confidence": 0.91,
+  "one_liner_summary": "Market trend on lab tests + feature suggestion.",
+  "one_liner_summary_confidence": 0.8,
+  "feedback_language": "en",
+  "feedback_language_confidence": 1.0,
+  "reasons": [
+    {
+      "extracted_reason_text": "switching to at-home lab tests",
+      "reason_label": null,
+      "reason_label_confidence": 0.0,
+      "theme_label": "Market Intelligence",
+      "theme_confidence": 0.8,
+      "reason_sentiment_score": 0.0,
+      "reason_sentiment_score_confidence": 0.0,
+      "reason_emotion_scores": { "anger": 0.0, "frustration": 0.0, "sadness": 0.0, "joy": 0.0, "sarcasm": 0.0, "emotion_confidence": 0.0 },
+      "reason_intent": "Market Intelligence",
+      "reason_intent_confidence": 0.9,
+      "reason_evidence_snippets": ["switching to at-home lab tests"],
+      "reason_suggested_action": null,
+      "entities": []
+    },
+    {
+      "extracted_reason_text": "add dark mode",
+      "reason_label": "feature_request",
+      "reason_label_confidence": 0.7,
+      "theme_label": "App Usability",
+      "theme_confidence": 0.8,
+      "reason_sentiment_score": 0.2,
+      "reason_sentiment_score_confidence": 0.6,
+      "reason_emotion_scores": { "anger": 0.0, "frustration": 0.0, "sadness": 0.0, "joy": 0.1, "sarcasm": 0.0, "emotion_confidence": 0.5 },
+      "reason_intent": "Suggestions",
+      "reason_intent_confidence": 0.9,
+      "reason_evidence_snippets": ["add dark mode"],
+      "reason_suggested_action": "Add dark mode toggle",
+      "entities": []
+    }
+  ],
+  "provenance": { "human_review_needed": true, "trigger_reasons": ["reason_label_missing"] }
+}

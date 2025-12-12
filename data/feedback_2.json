@@ -1,0 +1,44 @@
+{
+  "feedback_id": "fb_002",
+  "clean_text": "Payment failed twice and your app is much slower than 1MG.",
+  "clean_text_confidence": 0.94,
+  "one_liner_summary": "Payment failure and competitor pull towards 1MG.",
+  "one_liner_summary_confidence": 0.87,
+  "feedback_language": "en",
+  "feedback_language_confidence": 1.0,
+  "reasons": [
+    {
+      "extracted_reason_text": "Payment failed twice",
+      "reason_label": "payment_failed",
+      "reason_label_confidence": 0.89,
+      "theme_label": "Payments, Refunds & Billing",
+      "theme_confidence": 0.92,
+      "reason_sentiment_score": -0.8,
+      "reason_sentiment_score_confidence": 0.9,
+      "reason_emotion_scores": { "anger": 0.5, "frustration": 0.4, "sadness": 0.1, "joy": 0.0, "sarcasm": 0.0, "emotion_confidence": 0.86 },
+      "reason_intent": "Complaints",
+      "reason_intent_confidence": 0.94,
+      "reason_evidence_snippets": ["Payment failed twice"],
+      "reason_suggested_action": "Stabilize payment gateway APIs",
+      "entities": [
+        { "extracted_entity_text": "Payment", "canonical_entity_label": "payment_gateway", "entity_label_confidence": 0.88, "entity_category": "feature", "entity_category_confidence": 0.86, "extraction_method": "model" }
+      ]
+    },
+    {
+      "extracted_reason_text": "app is much slower than 1MG",
+      "reason_label": "app_performance",
+      "reason_label_confidence": 0.86,
+      "theme_label": "App Usability",
+      "theme_confidence": 0.9,
+      "reason_sentiment_score": -0.6,
+      "reason_sentiment_score_confidence": 0.82,
+      "reason_emotion_scores": { "anger": 0.3, "frustration": 0.2, "sadness": 0.1, "joy": 0.0, "sarcasm": 0.0, "emotion_confidence": 0.81 },
+      "reason_intent": "Competitor Pull",
+      "reason_intent_confidence": 0.93,
+      "reason_evidence_snippets": ["slower than 1MG"],
+      "reason_suggested_action": "Improve app performance metrics",
+      "entities": []
+    }
+  ],
+  "provenance": { "human_review_needed": false, "trigger_reasons": [] }
+}

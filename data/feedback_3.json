@@ -1,0 +1,42 @@
+{
+  "feedback_id": "fb_003",
+  "clean_text": "I absolutely loved the packaging, but the food was cold by the time it arrived.",
+  "clean_text_confidence": 0.99,
+  "one_liner_summary": "Mixed feedback: Good packaging, cold food.",
+  "one_liner_summary_confidence": 0.95,
+  "feedback_language": "en",
+  "feedback_language_confidence": 1.0,
+  "reasons": [
+    {
+      "extracted_reason_text": "loved the packaging",
+      "reason_label": "packaging_quality_positive",
+      "reason_label_confidence": 0.95,
+      "theme_label": "Packaging",
+      "theme_confidence": 0.98,
+      "reason_sentiment_score": 0.8,
+      "reason_sentiment_score_confidence": 0.9,
+      "reason_emotion_scores": { "anger": 0.0, "frustration": 0.0, "sadness": 0.0, "joy": 0.9, "sarcasm": 0.0, "emotion_confidence": 0.95 },
+      "reason_intent": "Appreciation",
+      "reason_intent_confidence": 0.99,
+      "reason_evidence_snippets": ["loved the packaging"],
+      "reason_suggested_action": null,
+      "entities": []
+    },
+    {
+      "extracted_reason_text": "food was cold",
+      "reason_label": "food_temperature_issue",
+      "reason_label_confidence": 0.92,
+      "theme_label": "Food Quality",
+      "theme_confidence": 0.94,
+      "reason_sentiment_score": -0.5,
+      "reason_sentiment_score_confidence": 0.88,
+      "reason_emotion_scores": { "anger": 0.1, "frustration": 0.4, "sadness": 0.5, "joy": 0.0, "sarcasm": 0.0, "emotion_confidence": 0.85 },
+      "reason_intent": "Complaints",
+      "reason_intent_confidence": 0.91,
+      "reason_evidence_snippets": ["food was cold"],
+      "reason_suggested_action": "Review thermal bag usage",
+      "entities": []
+    }
+  ],
+  "provenance": { "human_review_needed": false, "trigger_reasons": [] }
+}

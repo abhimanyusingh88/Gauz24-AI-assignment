@@ -1,0 +1,30 @@
+{
+  "feedback_id": "fb_005",
+  "clean_text": "Received the wrong item. I ordered Pizza but got a Burger. Disappointed.",
+  "clean_text_confidence": 0.97,
+  "one_liner_summary": "Wrong item delivered.",
+  "one_liner_summary_confidence": 0.96,
+  "feedback_language": "en",
+  "feedback_language_confidence": 1.0,
+  "reasons": [
+    {
+      "extracted_reason_text": "Received the wrong item",
+      "reason_label": "wrong_item_delivered",
+      "reason_label_confidence": 0.95,
+      "theme_label": "Order Accuracy",
+      "theme_confidence": 0.97,
+      "reason_sentiment_score": -0.9,
+      "reason_sentiment_score_confidence": 0.95,
+      "reason_emotion_scores": { "anger": 0.7, "frustration": 0.2, "sadness": 0.1, "joy": 0.0, "sarcasm": 0.0, "emotion_confidence": 0.92 },
+      "reason_intent": "Complaints",
+      "reason_intent_confidence": 0.98,
+      "reason_evidence_snippets": ["ordered Pizza but got a Burger"],
+      "reason_suggested_action": "Initiate refund or replacement",
+      "entities": [
+         { "extracted_entity_text": "Pizza", "canonical_entity_label": "item_pizza", "entity_label_confidence": 0.99, "entity_category": "food_item", "entity_category_confidence": 0.99, "extraction_method": "ner" },
+         { "extracted_entity_text": "Burger", "canonical_entity_label": "item_burger", "entity_label_confidence": 0.99, "entity_category": "food_item", "entity_category_confidence": 0.99, "extraction_method": "ner" }
+      ]
+    }
+  ],
+  "provenance": { "human_review_needed": false, "trigger_reasons": [] }
+}

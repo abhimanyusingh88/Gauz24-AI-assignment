@@ -1,0 +1,29 @@
+{
+  "feedback_id": "fb_001",
+  "clean_text": "The delivery was late and the app crashed while tracking my order.",
+  "clean_text_confidence": 0.98,
+  "one_liner_summary": "Customer unhappy due to late delivery and app crash.",
+  "one_liner_summary_confidence": 0.92,
+  "feedback_language": "en",
+  "feedback_language_confidence": 1.0,
+  "reasons": [
+    {
+      "extracted_reason_text": "delivery was late",
+      "reason_label": "delayed_delivery",
+      "reason_label_confidence": 0.9,
+      "theme_label": "Delivery Experience",
+      "theme_confidence": 0.94,
+      "reason_sentiment_score": -0.7,
+      "reason_sentiment_score_confidence": 0.85,
+      "reason_emotion_scores": { "anger": 0.4, "frustration": 0.3, "sadness": 0.2, "joy": 0.0, "sarcasm": 0.0, "emotion_confidence": 0.88 },
+      "reason_intent": "Complaints",
+      "reason_intent_confidence": 0.92,
+      "reason_evidence_snippets": ["delivery was late"],
+      "reason_suggested_action": "Improve delivery partner allocation",
+      "entities": [
+        { "extracted_entity_text": "delivery", "canonical_entity_label": "delivery_partner", "entity_label_confidence": 0.86, "entity_category": "operations", "entity_category_confidence": 0.92, "extraction_method": "ner" }
+      ]
+    }
+  ],
+  "provenance": { "human_review_needed": false, "trigger_reasons": [] }
+}
