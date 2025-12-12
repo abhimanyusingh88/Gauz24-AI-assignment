@@ -6,10 +6,9 @@ import data3 from "../data/feedback_3.json";
 import data4 from "../data/feedback_4.json";
 import data5 from "../data/feedback_5.json";
 
-
 const ALL_DATA_FILES = [data1, data2, data3, data4, data5];
 
-export function fetchMockFeedback () {
+export function fetchMockFeedback (): Promise<FeedbackData> {
   return new Promise((resolve, reject) => {
     // const fixed=500;
 
